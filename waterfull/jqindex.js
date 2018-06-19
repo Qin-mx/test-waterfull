@@ -5,11 +5,11 @@ $(function(){
         boxs: $('.wrap div')
     }
     waterFull(domObj)
-
     // 接下来需要实现滚动加载
     $(this).scroll(function(){
         appendBox(domObj)
     })
+
 })
 // 定义瀑布流
 
@@ -22,12 +22,22 @@ function waterFull(value){
     var cols = Math.floor(winW/boxW);
     // 设置当前包裹元素的宽度
     value.wrap.css({width: cols*boxW + 'px'})
+
     // 接下来需要设置div的布局
     var arrayW =  new Array()
     for( var i = 0; i < value.boxs.length; i++ ){
         // 等第一行的时候将元素的高度保存在数组
+        console.log(value.boxs.eq(i).children('img')[0].complete)
+        if(value.boxs.eq(i).children('img')[0].complete){
+            var ww = value.boxs.eq(i).children('img').height()
+            value.boxs.eq(i).children('img').css({height:ww + 'px'})
+        }else{
+            value.boxs.eq(i).children('img').css({height:200 + 'px'})
+        }
+        
         if( i < cols ){
-            arrayW[i] = value.boxs.eq(i).outerHeight(true);
+            arrayW[i] = value.boxs.eq(i).outerHeight(true)
+            console.log(arrayW[i])
         }else{
             // 取出最小高度
             var minH = Math.min.apply(null,arrayW);
