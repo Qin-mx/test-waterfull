@@ -1,0 +1,482 @@
+var data = [
+    {
+        "id": 1292063,
+        "title": "美丽人生",
+        "score": "9.5",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p510861873.jpg"
+    },
+    {
+        "id": 25662329,
+        "title": "疯狂动物城",
+        "score": "9.1",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2315672647.jpg"
+    },
+    {
+        "id": 3793023,
+        "title": "三傻大闹宝莱坞",
+        "score": "9.2",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2503997609.jpg"
+    },
+    {
+        "id": 20495023,
+        "title": "寻梦环游记",
+        "score": "9.1",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2503997609.jpg"
+    },
+    {
+        "id": 1292213,
+        "title": "大话西游之大圣娶亲",
+        "score": "9.2",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.jpg"
+    },
+    {
+        "id": 6786002,
+        "title": "触不可及",
+        "score": "9.2",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1454261925.jpg"
+    },
+    {
+        "id": 3319755,
+        "title": "怦然心动",
+        "score": "8.9",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p663036666.jpg"
+    },
+    {
+        "id": 1299398,
+        "title": "大话西游之月光宝盒",
+        "score": "8.9",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1280323646.jpg"
+    },
+    {
+        "id": 2129039,
+        "title": "飞屋环游记",
+        "score": "8.9",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2364094053.jpg"
+    },
+    {
+        "id": 1293839,
+        "title": "罗马假日",
+        "score": "8.9",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2189265085.jpg"
+    },
+    {
+        "id": 1293350,
+        "title": "两杆大烟枪",
+        "score": "9.1",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792443418.jpg"
+    },
+    {
+        "id": 1294371,
+        "title": "摩登时代",
+        "score": "9.2",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2173707976.jpg"
+    },
+    {
+        "id": 26614893,
+        "title": "完美陌生人",
+        "score": "8.6",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2522331945.jpg"
+    },
+    {
+        "id": 3742360,
+        "title": "让子弹飞",
+        "score": "8.7",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1512562287.jpg"
+    },
+    {
+        "id": 11525673,
+        "title": "布达佩斯大饭店",
+        "score": "8.8",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2178872593.jpg"
+    },
+    {
+        "id": 1291832,
+        "title": "低俗小说",
+        "score": "8.8",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910902213.jpg"
+    },
+    {
+        "id": 1292215,
+        "title": "天使爱美丽",
+        "score": "8.7",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p803896904.jpg"
+    },
+    {
+        "id": 1293908,
+        "title": "城市之光",
+        "score": "9.2",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2099815842.jpg"
+    },
+    {
+        "id": 4917726,
+        "title": "阳光姐妹淘",
+        "score": "8.8",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1374786017.jpg"
+    },
+    {
+        "id": 27059130,
+        "title": "大佛普拉斯",
+        "score": "8.6",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2505928032.jpg"
+    },
+    {
+        "id": 1907966,
+        "title": "疯狂原始人",
+        "score": "8.7",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1867084027.jpg"
+    },
+    {
+        "id": 24750126,
+        "title": "荒蛮故事",
+        "score": "8.8",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2192834364.jpg"
+    },
+    {
+        "id": 11026735,
+        "title": "超能陆战队",
+        "score": "8.6",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2224568669.jpg"
+    },
+    {
+        "id": 10533913,
+        "title": "头脑特工队",
+        "score": "8.7",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2266293606.jpg"
+    },
+    {
+        "id": 26393561,
+        "title": "小萝莉的猴神大叔",
+        "score": "8.6",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2510956726.jpg"
+    },
+    {
+        "id": 1293359,
+        "title": "菊次郎的夏天",
+        "score": "8.7",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p751835224.jpg"
+    },
+    {
+        "id": 1316510,
+        "title": "射雕英雄传之东成西就",
+        "score": "8.7",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1993903133.jpg"
+    },
+    {
+        "id": 2353023,
+        "title": "驯龙高手",
+        "score": "8.7",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p450042258.jpg"
+    },
+    {
+        "id": 1303037,
+        "title": "喜宴",
+        "score": "8.8",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2173713676.jpg"
+    },
+    {
+        "id": 10777687,
+        "title": "7号房的礼物",
+        "score": "8.7",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1816276065.jpg"
+    },
+    {
+        "id": 1302425,
+        "title": "喜剧之王",
+        "score": "8.5",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1043597424.jpg"
+    },
+    {
+        "id": 6534248,
+        "title": "无敌破坏王",
+        "score": "8.6",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1735642656.jpg"
+    },
+    {
+        "id": 1293460,
+        "title": "雨中曲",
+        "score": "9.0",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1612355875.jpg"
+    },
+    {
+        "id": 3287562,
+        "title": "神偷奶爸",
+        "score": "8.5",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792776858.jpg"
+    },
+    {
+        "id": 1858711,
+        "title": "玩具总动员3",
+        "score": "8.8",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1283675359.jpg"
+    },
+    {
+        "id": 1295409,
+        "title": "纵横四海",
+        "score": "8.7",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2272146906.jpg"
+    },
+    {
+        "id": 1291579,
+        "title": "怪兽电力公司",
+        "score": "8.6",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2513247938.jpg"
+    },
+    {
+        "id": 1296909,
+        "title": "虎口脱险",
+        "score": "8.9",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2399597512.jpg"
+    },
+    {
+        "id": 1292274,
+        "title": "幸福终点站",
+        "score": "8.7",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p792263736.jpg"
+    },
+    {
+        "id": 26725031,
+        "title": "是，大臣 1984圣诞特辑",
+        "score": "9.8",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2397258764.jpg"
+    },
+    {
+        "id": 27000061,
+        "title": "我能说",
+        "score": "8.8",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2498433749.jpg"
+    },
+    {
+        "id": 1306249,
+        "title": "唐伯虎点秋香",
+        "score": "8.4",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1946455272.jpg"
+    },
+    {
+        "id": 25921812,
+        "title": "驴得水",
+        "score": "8.4",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2393044761.jpg"
+    },
+    {
+        "id": 1292401,
+        "title": "真爱至上",
+        "score": "8.5",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p475600770.jpg"
+    },
+    {
+        "id": 24405378,
+        "title": "王牌特工：特工学院",
+        "score": "8.4",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2231932406.jpg"
+    },
+    {
+        "id": 1310177,
+        "title": "东京教父",
+        "score": "8.8",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p456703618.jpg"
+    },
+    {
+        "id": 26700818,
+        "title": "极品基老伴：完结篇",
+        "score": "9.3",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2509440210.jpg"
+    },
+    {
+        "id": 1291578,
+        "title": "冰川时代",
+        "score": "8.4",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1910895719.jpg"
+    },
+    {
+        "id": 4739952,
+        "title": "初恋这件小事",
+        "score": "8.3",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1505312273.jpg"
+    },
+    {
+        "id": 1292206,
+        "title": "地下",
+        "score": "9.1",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1833776334.jpg"
+    },
+    {
+        "id": 26935251,
+        "title": "春宵苦短，少女前进吧！",
+        "score": "8.5",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2469814400.jpg"
+    },
+    {
+        "id": 1867345,
+        "title": "遗愿清单",
+        "score": "8.5",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p708613284.jpg"
+    },
+    {
+        "id": 3007773,
+        "title": "海盗电台",
+        "score": "8.6",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p769608791.jpg"
+    },
+    {
+        "id": 1890572,
+        "title": "坠入",
+        "score": "8.8",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p568541514.jpg"
+    },
+    {
+        "id": 1862151,
+        "title": "疯狂的石头",
+        "score": "8.3",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p712241453.jpg"
+    },
+    {
+        "id": 1297478,
+        "title": "上帝也疯狂",
+        "score": "8.6",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2173719647.jpg"
+    },
+    {
+        "id": 26942631,
+        "title": "起跑线",
+        "score": "8.0",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2517518428.jpg"
+    },
+    {
+        "id": 10741643,
+        "title": "我的个神啊",
+        "score": "8.4",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2243803873.jpg"
+    },
+    {
+        "id": 1295646,
+        "title": "大独裁者",
+        "score": "8.9",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1960167314.jpg"
+    },
+    {
+        "id": 1303408,
+        "title": "福尔摩斯二世",
+        "score": "9.4",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2206737207.jpg"
+    },
+    {
+        "id": 4202982,
+        "title": "冰雪奇缘",
+        "score": "8.3",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2166640945.jpg"
+    },
+    {
+        "id": 26277313,
+        "title": "西游记之大圣归来",
+        "score": "8.2",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2255028780.jpg"
+    },
+    {
+        "id": 1300613,
+        "title": "土拨鼠之日",
+        "score": "8.5",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2493191199.jpg"
+    },
+    {
+        "id": 3908423,
+        "title": "夏日大作战",
+        "score": "8.6",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1031772057.jpg"
+    },
+    {
+        "id": 24741412,
+        "title": "哪啊哪啊神去村",
+        "score": "8.5",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2214469584.jpg"
+    },
+    {
+        "id": 1303418,
+        "title": "你逃我也逃",
+        "score": "9.2",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1339915772.jpg"
+    },
+    {
+        "id": 6019180,
+        "title": "开心家族",
+        "score": "8.5",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p892692364.jpg"
+    },
+    {
+        "id": 4920528,
+        "title": "那些年，我们一起追的女孩",
+        "score": "8.1",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1062824805.jpg"
+    },
+    {
+        "id": 26340419,
+        "title": "帕丁顿熊2",
+        "score": "8.2",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2506466229.jpg"
+    },
+    {
+        "id": 4876722,
+        "title": "钢的琴",
+        "score": "8.3",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p511447359.jpg"
+    },
+    {
+        "id": 2133323,
+        "title": "白日梦想家",
+        "score": "8.3",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2160195181.jpg"
+    },
+    {
+        "id": 1301171,
+        "title": "偷拐抢骗",
+        "score": "8.5",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p616753227.jpg"
+    },
+    {
+        "id": 1322848,
+        "title": "奇爱博士",
+        "score": "8.7",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p835946292.jpg"
+    },
+    {
+        "id": 1298817,
+        "title": "淘金记",
+        "score": "9.0",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1581774481.jpg"
+    },
+    {
+        "id": 1759386,
+        "title": "了不起的狐狸爸爸",
+        "score": "8.4",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2174698025.jpg"
+    },
+    {
+        "id": 1302476,
+        "title": "麦兜故事",
+        "score": "8.5",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p804938713.jpg"
+    },
+    {
+        "id": 1293270,
+        "title": "寻子遇仙记",
+        "score": "9.1",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2332976198.jpg"
+    },
+    {
+        "id": 26844922,
+        "title": "杰出公民",
+        "score": "8.4",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2441383861.jpg"
+    },
+    {
+        "id": 1300555,
+        "title": "回到未来",
+        "score": "8.5",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p475872903.jpg"
+    },
+    {
+        "id": 1307697,
+        "title": "芝加哥",
+        "score": "8.6",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1571966850.jpg"
+    }
+]
