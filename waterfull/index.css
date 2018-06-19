@@ -2,9 +2,6 @@
     margin:0;
     padding: 0;
 }
-html{
-    font-size:16px;
-}
 .wrap{
     /* -webkit-column-width: 280px;
     -o-column-width: 280px;
@@ -17,7 +14,7 @@ html{
 }
 .wrap div{
     float: left;
-    width: 10rem;
+    width: 260px;
     height: auto;
     padding:10px;
     margin: 10px;
